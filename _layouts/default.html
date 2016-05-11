@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+
+    <header class="visible background-dark">
+      <div>{% include header.html %}</div>
+    </header>
+
+    <div id="context" class="background-twilight"></div>
+
+    <div id="wrap" class="background-background small-xs-bottom-padding">
+      <div id="flash"></div>
+      <div id="mobile-menu">
+        <div>
+          <div class="clearfix visible-xs hidden-sm background-brand">
+            <h2 class="reveal pull-left micro-xs-vertical-padding small-xs-horizontal-padding weak">
+              <i class="icon ion-navicon icon-normal"></i>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div>{{ content }}</div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

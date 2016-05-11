@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div id="post-page">
+
+  <div class="small-xs-padding no-xs-bottom-padding">
+    <h2 class="nested-text-dark micro-xs-bottom-margin">{{ page.title }}</h2>
+    <h6 class="text-bright">By {{ page.author }} on {{ page.date | date: "%b %-d, %Y" }}</h6>
+  </div>
+
+  <div class="widget post-content-widget small-xs-margin no-xs-bottom-margin">
+    {% unless page.hidePostImage %}
+    <img src="{{page.image}}" />
+    {% endunless %}
+
+    {{content}}
+  </div>
+
+</div>
