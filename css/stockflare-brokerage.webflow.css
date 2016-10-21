@@ -163,6 +163,14 @@
   background-repeat: no-repeat;
 }
 
+.broker-logo-wrapper.broker-block-logo.tradestation {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-image: url('../images/broker_logo_tradestation.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .broker-logo-wrapper.broker-block-logo.schwab {
   margin-top: 10px;
   margin-bottom: 0px;
